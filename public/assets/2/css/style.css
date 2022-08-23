@@ -1,0 +1,677 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+p{
+	margin-bottom: 0px;
+}
+.red{
+	color:#ce0202;
+}
+.red a{
+	color:#ce0202;
+	text-decoration:none;
+}
+.black{
+	color:#000;
+}
+.green{
+    color:#44b742;
+}
+.green a{
+    color:#44b742;
+    text-decoration: none;
+}
+.purple{
+    color:#6358bc;
+}
+.form-control:focus{
+	box-shadow: none !important;
+}
+select.form-control{
+	background-image: url(../images/dropdown.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+.mb0{
+	margin-bottom: 0px !important;
+}
+.halfFlex{
+	display: flex;
+	gap: 4px;
+}
+.fullFlex{
+	display: flex;
+	gap: 4px;
+	flex-direction: column;
+}
+.halfFlex .form-control, .fullFlex .form-control{
+	margin-bottom: 4px;
+}
+.form-control{
+	background-color: #ecebf7 !important;
+	font-size: 12px;
+	padding: 12px;
+	border: none;
+}
+.form-group {
+    margin-bottom: 7px !important;
+}
+.noticeme{
+    color:#212121;
+    font-weight: bold;
+}
+.spacer{height:30px;}
+.noul{text-decoration: none !important;}
+.logobar{
+	padding: 20px 50px !important;
+}
+.logobar h4{
+	float:right;
+	font-weight: 600;
+}
+.logobar h4 a{
+	color: #212121;
+	transition: 0.3s;
+}
+.logobar h4 a:hover{
+	color: #44b742;
+}
+.logobar a{
+	text-decoration: none;
+}
+.mainstage{
+	background-color: #6358bc;
+	padding:33px 200px 33px 200px;
+    background-image: url("../images/bg-img.jpg");
+    background-size:cover;
+}
+.form-label{
+	font-size: 13px;
+	color: #212121;
+	font-weight: 400;
+}
+.alertText, .formText{
+	font-size: 12px;
+	color: #212121;
+}
+.grabber {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 0;
+	font-weight: 400;
+}
+.grabber span{
+    text-decoration:underline;
+	font-weight: 700;
+
+}
+.stagecard {
+    background-color: rgba(255,255,255,1);
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 25px 0 0 0;
+    overflow: hidden;
+}
+.stagecard h4{
+	font-weight: 700;
+}
+.bigquestion1{
+	font-size:65px;
+	margin:15px 0 15px 0;
+}
+.flexContainer{
+	width: calc(50% + 100px) !important;
+	display: flex;
+	align-items: center;
+	padding-right: 100px;
+}
+.stagecard{
+	width: calc(50% - 100px) !important;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+}
+.smallsub{
+    font-size:14px;
+    text-align:center;
+}
+.bigquestion2{
+	font-size:45px;
+	margin:15px 0 15px 0;
+}
+.custombtn{
+	width:100%;
+	background-color: #6358bc;
+	color:#fff;
+	font-size:41px;
+	border-radius:15px;
+}
+.custombtn:hover{
+	color:#fff;
+}
+.custombtn2{
+	background-color: #1dad01;
+	color:#fff;
+	font-size:31px;
+	border-radius:15px;
+	font-weight:bold;
+	padding:10px 30px;
+	margin-top:25px;
+}
+.custombtn2:hover{
+	color:#fff;
+	background-color:#000;
+}
+.questions{
+	padding:25px 0 45px 0;
+}
+.highlighted{
+	padding:10px 0 10px 0;
+	text-align: center;
+	font-weight:bold;
+	font-size:18px;
+}
+.bannerFormBtn{
+	width: 100%;
+	background-color: #6358bc;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 6px;
+	margin-bottom: 15px;
+	padding: 8px 20px;
+}
+.addWrapp{
+	margin-bottom: 15px;
+}
+.nopad{padding:0;}
+.fomoBar {
+    background-color: #44b742;
+    color: #fff;
+    padding: 45px 0 45px 0;
+    text-align: center;
+	vertical-align: top;
+}
+.fomoBarContainer{
+	display: flex;
+	align-items:flex-start;
+}
+.fomoBar img {
+    display: inline-block;
+    top: 7px;
+    position: relative;
+}
+.fomoBar .heading1{
+	line-height: 55px;
+}
+.about h1{
+	font-size:43px;
+	text-align: center;
+	padding:50px 0 20px 0;
+    color:#6358bc;
+}
+.aboutSec{
+	padding: 85px 0px;
+	background-image: url(../images/about-bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.aboutSec .heading1{
+	line-height: 52px;
+	margin-bottom: 26px;
+}
+.aboutSec p{
+	font-size: 16px;
+	line-height: 24px;
+}
+.milkFormulaBox{
+	background-image: url(../images/purple-bg.png);
+	padding: 55px;
+}
+ul.formulaPoints  {
+	padding-bottom: 0px;
+	padding-top: 50px;
+	padding-left: 0px;
+}
+ul.formulaPoints  li {
+	display: inline-block;
+	position: relative;
+	width: calc(33.3333333% - 26px);
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 3px;
+    padding-left: 70px;
+	border-bottom:none;
+	text-align: left;
+	vertical-align: top;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+ul.formulaPoints  li:last-child{
+	padding-right: 0px;
+	margin-right: 0px;
+}
+ul.formulaPoints  li::before{
+	border-right: 1px solid #8b80c7;
+	width: 1px;
+	height: 140px;
+	position: absolute;
+	right: 0px;
+	content: '';
+}
+ul.formulaPoints  li:last-child::before{
+	display: none;
+}
+ul.formulaPoints  li img{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.closer{
+	background-color:#6358bc;
+	border-top:10px solid #1dad01;
+	padding:70px 0;
+	text-align:center;
+	color:#fff;
+}
+.closer h1{
+	font-size:44px;
+	font-style:italic;
+	text-transform:uppercase;
+}
+.closer p{
+	font-size:33px;
+}
+.mb2{
+	margin-bottom: 20px;
+}
+.mb3{
+	margin-bottom: 30px;
+}
+.white-text{
+	color: #fff !important;
+}
+.footer {
+    text-align: center;
+    padding-top: 80px;
+    background-image: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading1{
+	font-size: 44px;
+	font-weight: 400;
+	line-height: 36px;
+}
+.footerCenterTextBox{
+	width: 500px;
+	margin: 0px auto 70px;
+}
+.footerContactBox{
+	width: 560px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+}
+.footerContact{
+	font-size: 24px !important;
+	color: #fff;
+}
+.footerContact a{
+	font-size: 24px !important;
+	color: #fff;
+	text-decoration: none;
+}
+.footer p.big {
+    font-size: 16px;
+    color: #666;
+    padding-bottom: 40px;
+    font-weight: 700;
+    line-height: 26px;
+	margin-bottom: 0px;
+}
+.footer-button{
+	background-color: #1dad01;
+	color:#fff;
+	font-size:22px;
+	border-radius:8px;
+	font-weight:400;
+	padding:12px 40px;
+}
+.footer p{font-size:12px;padding-bottom:50px;}
+.footer .red a{font-size:18px;color:#ce0202}
+.list-inline li{display:inline-block;}
+.privacy-bar{
+	border-top: 1px solid #8c84cc;
+	color:#fff;
+	font-size:13px;
+	padding:50px 0 50px 0;
+}
+.privacy-bar ul{
+	margin-bottom: 0px;
+}
+.privacy-bar a{
+	color:#fff;
+	text-decoration: none;
+}
+.questionbtn{margin-bottom:10px;}
+.form-group{margin-bottom:15px;}
+
+
+.nceSection{
+	padding-top: 85px;
+	padding-bottom: 85px;
+	background-image: url(../images/nce-image.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+.nceSection .heading1{
+	line-height: 50px;
+}
+.nceSection p{
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+.mobFull.offset-lg-8 {
+    margin-left: 63%;
+}
+.mobFull.col-lg-4 {
+    width: 37%;
+}
+
+.thankbox{
+	height: 500px;
+	display:flex;
+	align-items: center;
+}
+.thankrow{
+	align-items: center;
+}
+
+/*media calls*/
+@media screen and (max-width: 1600px) {
+	.mainstage {
+		padding: 35px 150px 35px 150px;
+	}
+}
+@media screen and (max-width: 1440px) {
+	.grabber {
+		font-size: 55px;
+	}
+	.form-label {
+		font-size: 12.5px;
+		line-height: 14px;
+	}
+	.form-control {
+		padding: 10px;
+	}
+	.heading1 {
+		font-size: 40px;
+	}
+	.aboutSec .heading1 {
+		line-height: 45px;
+	}
+	.nceSection .heading1 {
+		line-height: 40px;
+	}
+	.grabber {
+		font-size: 60px;
+	}
+}
+@media screen and (max-width: 1366px) {
+	.mobFull.offset-lg-8 {
+		margin-left: 60%;
+	}
+	.mobFull.col-lg-4 {
+		width: 40%;
+	}
+	ul.formulaPoints li {
+		display: inline-block;
+		position: relative;
+		width: calc(33.3333333% - 15px);
+		font-size: 18px;
+		padding-left: 55px;
+		margin-right: 15px;
+		padding-right: 15px;
+	}
+	.stagecard {
+		width: calc(50% - 50px) !important;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.flexContainer {
+		width: calc(50% + 50px) !important;
+		padding-right: 50px;
+	}
+	.alertText, .formText {
+		font-size: 11px;
+		color: #212121;
+	}
+	.grabber {
+		font-size: 50px;
+	}
+	.mainstage {
+		padding: 35px 100px 35px 100px;
+	}
+}
+@media screen and (max-width: 1239px) {
+	.flexContainer{
+		padding-right: 0px;
+		text-align: center;
+	}
+	.flexContainer, .stagecard {
+		width: 100% !important;
+	}
+
+	.grabber {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+	.nceSection .heading1 {
+		line-height: 36px;
+	}
+	.aboutSec .heading1 {
+		line-height: 38px;
+	}
+	.heading1 {
+		font-size: 34px;
+	}
+}
+@media screen and (max-width: 990px) {
+	ul.formulaPoints li img {
+		top: 3px;
+		width: 30px;
+	}
+	.grabber {
+		font-size: 35px;
+		line-height: 35px;
+		margin-bottom: 20px;
+	}
+	.mainstage {
+		padding: 25px 50px 25px 50px;
+	}
+	.heading1 {
+		font-size: 40px;
+	}
+	.fomoBar .heading1 {
+		line-height: 45px;
+	}
+	.nceSection .heading1 {
+		line-height: 32px;
+	}
+	.heading1 {
+		font-size: 30px;
+	}
+	ul.formulaPoints li {
+		width: 100%;
+		font-size: 17px;
+		padding-left: 37px;
+		margin-right: 0px;
+		padding-right: 0px;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	ul.formulaPoints li:last-child {
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	ul.formulaPoints li::before {
+		width: 100%;
+		border-bottom: 1px solid #8b80c7;
+		height: 1px;
+		position: absolute;
+		right: 0px;
+		left: 0px;
+		bottom: 0px;
+		content: '';
+	}
+	.milkFormulaBox {
+		padding: 40px;
+	}
+	.aboutSec {
+		padding: 65px 0px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.milkFormulaBox {
+		padding: 20px;
+	}
+	.logobar {
+		padding: 20px 30px !important;
+	}
+	.logobar h4 {
+		float: right;
+		font-size: 18px;
+	}
+	.grabber {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.footerContactBox {
+		flex-direction: column;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.heading1 {
+		font-size: 30px;
+	}
+	.fomoBarContainer{
+		display: block;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.fomoBar .heading1 {
+		line-height: 35px;
+		display: block;
+		margin-top: 15px;
+	}
+	.mobFull {
+		background-color: rgba(255,255,255,0.5);
+		width:95%;
+		margin-left: 0px;
+		text-align: center;
+		padding: 15px !important;
+		border-radius: 5px;
+	}
+	.mobFull.offset-lg-8 {
+		margin-left: 2.5%;
+	}
+	.mobFull.col-lg-4 {
+		width: 95%;
+	}
+	.nceSection {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.mobFull p:last-child{
+		margin-bottom: 0px !important;
+	}
+	.nceSection .heading1 {
+		line-height: 32px;
+		font-size: 28px;
+	}
+	ul.formulaPoints li img {
+		top: 5px;
+		width: 20px;
+	}
+    ul.formulaPoints li{
+        font-size: 16px;
+        padding-left: 28px;
+    }
+    .footerCenterTextBox img{
+        max-width: 90px;
+    }
+}
+@media screen and (max-width: 600px) {
+	.footer{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.footerCenterTextBox {
+		width: calc(100% - 20px);
+		margin: 0px auto 70px;
+	}
+	.bannerFormBtn {
+		font-size: 16px;
+	}
+	.grabber {
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.heading1 {
+		font-size: 25px;
+	}
+	.fomoBar .heading1 {
+		line-height: 28px;
+	}
+	.nceSection .heading1 {
+		line-height: 25px;
+		font-size: 26px;
+	}
+	.aboutSec .heading1 {
+		line-height: 27px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.mainstage {
+		padding: 25px 20px 25px 20px;
+	}
+	.phoneLogo{
+		display: none;
+	}
+	.logobar {
+		padding: 10px 15px !important;
+	}
+	.heading1, .nceSection .heading1 {
+		font-size: 22px;
+		line-height: 22px;
+	}
+}
+@media screen and (max-width: 360px) {
+	.logobar h4 {
+		float: right;
+		font-size: 16px;
+	}
+    .footerContact a {
+        font-size: 18px !important;
+    }
+.grabber {
+
+    font-size: 22px;
+    line-height: 25px;
+
+}
+}

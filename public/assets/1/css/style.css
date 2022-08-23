@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700&display=swap');
+
+h1{
+	font-family:"Archivo Narrow";
+	font-weight: 700;
+}
+.red{
+	color:#ce0202;
+}
+.red a{
+	color:#ce0202;
+	text-decoration:none;
+}
+.green{
+    color:#44b742;
+}
+.green a{
+    color:#44b742;
+    text-decoration: none;
+}
+.purple{
+    color:#6358bc;
+}
+.noticeme{
+    color:#ce0202;
+    font-weight: bold;
+    font-size:25px;
+}
+.spacer{height:30px;}
+.noul{text-decoration: none !important;}
+.logobar h4{
+	float:right;
+}
+.mainstage{
+	background-color: #6358bc;
+	padding:35px 0 55px 0;
+    background-image: url("../images/bg-img.jpg");
+    background-size:cover;
+}
+.grabber{
+	color:#fff;
+	font-size:55px;
+	margin-bottom:30px;
+}
+.grabber span{
+    text-decoration:underline;
+    color:#fcff00
+}
+.stagecard{
+	background-color:#fff;
+	border-radius:20px;
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+	padding:25px 0 0 0;
+	overflow:hidden;
+
+}
+.bigquestion1{
+	font-size:65px;
+	margin:15px 0 15px 0;
+}
+.smallsub{
+    font-size:14px;
+    text-align:center;
+}
+.bigquestion2{
+	font-size:45px;
+	margin:15px 0 15px 0;
+}
+.custombtn{
+	width:100%;
+	background-color: #6358bc;
+	color:#fff;
+	font-size:41px;
+	border-radius:15px;
+}
+.custombtn:hover{
+	color:#fff;
+}
+.custombtn2{
+	background-color: #1dad01;
+	color:#fff;
+	font-size:31px;
+	border-radius:15px;
+	font-weight:bold;
+	padding:10px 30px;
+	margin-top:25px;
+}
+.custombtn2:hover{
+	color:#fff;
+	background-color:#000;
+}
+.questions{
+	padding:25px 0 45px 0;
+}
+.stagecard p{
+	font-size:20px;
+
+}
+.highlighted{
+	background-color:#eeda94;
+	padding:10px 0 10px 0;
+	text-align: center;
+	font-weight:bold;
+	font-size:18px;
+}
+
+
+.nopad{padding:0;}
+.fomoBar{
+	background-color:#44b742;
+	color:#fff;
+	font-size:25px;
+	padding:20px 0 20px 0;
+	text-align: center;
+}
+.about h1{
+	font-size:43px;
+	text-align: center;
+	padding:50px 0 20px 0;
+    color:#6358bc;
+}
+
+
+.bullets{
+	padding:0 40px;
+}
+.bullets ul {
+    list-style-image: url('../images/check.jpg');
+    padding-left: 15px;
+}
+.bullets ul li {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 3px;
+    padding-left: 10px;
+	border-bottom:none;
+}
+.bullets ul{
+	margin-bottom:50px;
+}
+.closer{
+	background-color:#6358bc;
+	border-top:10px solid #1dad01;
+	padding:70px 0;
+	text-align:center;
+	color:#fff;
+}
+.closer h1{
+	font-size:44px;
+	font-style:italic;
+	text-transform:uppercase;
+}
+.closer p{
+	font-size:33px;
+}
+.footer{
+	text-align:center;
+	padding-top:60px;
+
+}
+.footer p{font-size:13px;color:#666;padding-bottom:50px;}
+.footer a{font-size:12px;color:#666;}
+.footer .red a{font-size:18px;color:#ce0202}
+.list-inline li{display:inline-block;}
+.privacy-bar{
+	background-color:#333;
+	color:#ccc;
+	font-size:12px;
+	padding:20px 0 0 0;
+}
+.privacy-bar a{
+	color:#ccc;
+}
+.questionbtn{margin-bottom:10px;}
+.form-group{margin-bottom:15px;}
+/*media calls8*/
+
+@media (max-width: 1440px){
+    .bigquestion1 {
+        font-size: 55px;
+    }
+}
+@media(max-width:1200px){
+    .bigquestion1 {
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 990px) {
+	.grabber {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+	.custombtn{
+		font-size:30px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.grabber {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+	.stagecard h4{
+		font-size:20px;
+
+	}
+	.fomoBar{
+		font-size:20px;
+	}
+	.highlighted{
+		font-size:13px;
+	}
+	.bullets ul li {
+		border-bottom:1px dashed #ccc;
+	}
+	.about h1{
+		font-size:33px;
+	}
+	.closer p{
+		font-size:23px;
+	}
+	.questionbtn a button{margin-bottom:10px;font-size:22px;padding:15px}
+	.bigquestion2{
+		font-size:25px;
+	}
+    .bigquestion1 {
+        font-size: 30px;
+    }
+    .mainstage{
+        background-size:contain;
+    }
+    .logobar h4{
+            font-size:15px;
+        float:right;
+        text-align: right;
+        }
+        .noticeme{
+            font-size: 20px;
+        }
+        .stagecard p {
+            font-size: 17px;
+        }
+        .closer h1 {
+            font-size: 35px;
+        }
+        .closer p {
+            font-size: 18px;
+        }
+		.footerCenterTextBox img{
+			max-width: 90px;
+		}
+
+}
+@media screen and (max-width: 540px) {
+	.grabber {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+	.stagecard h4{
+		font-size:20px;
+
+	}
+	.bigquestion1 {
+        font-size: 30px;
+    }
+     .logobar h4{
+            font-size:13px;
+        float:right;
+        text-align: right;
+        }
+        .closer img{
+            max-width: 90px;
+        }
+        .about h1 {
+            font-size: 28px;
+        }
+		.custombtn{
+			font-size:25px;
+		}
+}
+@media screen and (max-width: 450px) {
+    .bigquestion1 {
+        font-size: 24px;
+    }
+    .questionbtn a button{
+        padding:15px;
+        font-size: 18px;
+    }
+    .custombtn2{
+        font-size: 24px;
+    }
+}

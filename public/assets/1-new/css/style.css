@@ -1,0 +1,595 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700&display=swap');
+h1 {
+    font-family: "Archivo Narrow";
+    font-weight: 700;
+}
+
+.red {
+    color: #ce0202;
+}
+
+.red a {
+    color: #ce0202;
+    text-decoration: none;
+}
+
+.logobar h4 {
+    float: right;
+}
+
+.mainstage {
+    background-color: #569fd5;
+    padding: 35px 0 55px 0;
+}
+
+.grabber {
+    color: #fff;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.stagecard {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 25px 0 0 0;
+    overflow: hidden;
+}
+
+.bigquestion1 {
+    font-size: 75px;
+    margin: 15px 0 15px 0;
+}
+
+.bigquestion2 {
+    font-size: 55px;
+    margin: 15px 0 15px 0;
+}
+
+.custombtn {
+    width: 100%;
+    background-color: #185a8b;
+    color: #fff;
+    font-size: 41px;
+    border-radius: 15px;
+}
+
+.custombtn:hover {
+    color: #fff;
+}
+
+.custombtn2 {
+    background-color: #569fd5;
+    color: #fff;
+    font-size: 31px;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 25px;
+}
+
+.custombtn2:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.questions {
+    padding: 25px 0 45px 0;
+}
+
+.stagecard p {
+    font-size: 20px;
+}
+
+.highlighted {
+    background-color: #eeda94;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nopad {
+    padding: 0;
+}
+
+.fomoBar {
+    background-color: #185a8b;
+    color: #fff;
+    font-size: 25px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 43px;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+.bullets {
+    padding: 0 40px;
+}
+
+.bullets ul {
+    list-style-image: url('../images/check.jpg');
+    padding-left: 15px;
+}
+
+.bullets ul li {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 3px;
+    padding-left: 10px;
+    border-bottom: none;
+}
+
+.bullets ul {
+    margin-bottom: 50px;
+}
+
+.closer {
+    background-color: #185a8b;
+    border-top: 10px solid #569fd5;
+    padding: 70px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.closer h1 {
+    font-size: 44px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.closer p {
+    font-size: 33px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.footer p {
+    font-size: 13px;
+    color: #666;
+    padding-bottom: 50px;
+}
+
+.footer a {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer .red a {
+    font-size: 18px;
+    color: #ce0202
+}
+
+.list-inline li {
+    display: inline-block;
+}
+
+.privacy-bar {
+    background-color: #333;
+    color: #ccc;
+    font-size: 12px;
+    padding: 20px 0 0 0;
+}
+
+.privacy-bar a {
+    color: #ccc;
+}
+
+.questionbtn {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+/*media calls8*/
+
+@media screen and (max-width: 990px) {
+    .grabber {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grabber {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .stagecard h4 {
+        font-size: 20px;
+    }
+    .fomoBar {
+        font-size: 20px;
+    }
+    .highlighted {
+        font-size: 13px;
+    }
+    .bullets ul li {
+        border-bottom: 1px dashed #ccc;
+    }
+    .about h1 {
+        font-size: 33px;
+    }
+    .closer p {
+        font-size: 23px;
+    }
+    .questionbtn a button {
+        margin-bottom: 10px;
+        font-size: 25px;
+        padding: 15px
+    }
+    .bigquestion2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .grabber {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .stagecard h4 {
+        font-size: 20px;
+    }
+    .bigquestion1 {
+        font-size: 55px;
+    }
+}
+
+
+/*********** Paraquat Injury Style *******/
+
+.paraquat_header {
+    padding: 10px 0;
+}
+
+.paraquat_header .logo_img {
+    width: 100%;
+}
+
+.paraquat_header .logo_img img {
+    width: 100%;
+    height: 100%;
+    max-height: 64px;
+    max-width: 170px;
+    object-fit: cover;
+}
+
+.mainstage.paraquat_main {
+    background: none;
+    padding: 0;
+}
+
+.mainstage.paraquat_main .alert {
+    background: rgb(0, 156, 62);
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.mainstage .alert .alert_text {
+    text-align: center;
+}
+
+.alert_text h2 {
+    font-size: 1.4861rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner_section {
+    height: 30.6875rem;
+    max-width: 100%;
+    background: url(https://v.fastcdn.co/u/10d1bd3b/56718142-0-image-78.png) no-repeat rgb(255, 255, 255) 50% 100% / 100%;
+    padding: 50px 0;
+}
+
+.attention_content h2 {
+    font-size: 6.4rem;
+    color: #ff0000;
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+    line-height: 4rem;
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+}
+
+.attention_content h2 span {
+    line-height: 3.4rem;
+    font-size: 3.6rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.attention_content p {
+    line-height: 1.9375rem;
+    font-size: 1.3622rem;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    font-weight: 700;
+}
+
+.attention_content p span {
+    background: yellow;
+    line-height: 1.6;
+    display: inline-block;
+    text-decoration: underline;
+    vertical-align: middle;
+}
+
+.attention_content {
+    width: 100%;
+    max-width: 74%;
+}
+
+.company_logo {
+    background: rgb(211, 211, 211);
+    margin-top: -1px;
+    padding: 20px 0;
+}
+
+.company-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.company-logos h3 {
+    line-height: 1.9375rem;
+    font-size: 1.3622rem;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+}
+
+.farming_content {
+    background: url(https://v.fastcdn.co/u/10d1bd3b/56719417-0-image-20.png) no-repeat rgb(230, 234, 230) 100% 100% / auto;
+    height: 31.625rem;
+    padding-bottom: 715px;
+}
+
+.farming_content h3 {
+    line-height: 2.375rem;
+    font-size: 1.6718rem;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    padding: 30px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.farming_points {
+    background: rgb(230, 234, 230);
+    /* height: 31.625rem; */
+}
+
+.points ul li p {
+    line-height: 2rem;
+    font-size: 1.2384rem;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+}
+
+.paraquat_footer {
+    padding: 50px 0;
+    background: rgb(116, 116, 116);
+}
+
+.paraquat_footer .foter_text p {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
+
+.paraquat_footer .foter_text {
+    margin-bottom: 30px;
+}
+
+.paraquat_footer .footer_links ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.paraquat_footer .footer_links ul li {
+    margin: 0 10px;
+}
+
+.paraquat_footer .footer_links ul li a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.paraquat_footer .footer_links ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/*********** Form Style *************/
+
+.section_main_content {
+    position: relative;
+    width: 100%;
+}
+
+.section_main_content .main_form {
+    position: absolute;
+    right: 9.5vw;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 34%;
+    border: 0.0625rem solid #333333;
+    border-radius: 0 0 0 0;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    height: 79.9rem;
+}
+
+.main_form .form_header {
+    border-bottom: 1px solid #000;
+    background: rgb(6, 39, 158);
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.main_form .form {
+    padding: 10px 25px;
+}
+
+.main_form .form_header h3 {
+    color: #fff;
+    line-height: 1.9375rem;
+    font-size: 1.6099rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.main_form .form_header span {
+    line-height: 2rem;
+    font-size: 1.2384rem;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main_form .form form .form-group label {
+    margin: 0.3125rem 0 0.5rem;
+    font-size: 0.89375rem;
+    padding: 0;
+    line-height: 1.1875rem;
+    color: #5E6C7B;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main_form .form form .form-group {
+    margin-bottom: 10px;
+}
+
+.main_form .form form .form-group .form-control {
+    color: #000000;
+    background-color: #E7F9FF;
+    border-color: #A3BAC6;
+    height: 2.6875rem;
+}
+
+.main_form .form form button.btn {
+    background: #009C3E;
+    color: #FFFFFF;
+    font-size: 1.4241rem;
+    font-family: Oswald;
+    font-weight: 700;
+    height: 4.3125rem;
+    border-radius: 3px;
+    margin: 20px auto 10px;
+    display: block;
+    border: none;
+    width: 100%;
+}
+
+.main_form .form form button.btn:hover {
+    background: #04903B;
+    color: #FFFFFF;
+}
+
+.form_logos {
+    display: flex;
+    justify-content: center;
+}
+
+.form_logos ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 55%;
+}
+
+.form_logos ul li span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    line-height: 0.9375rem;
+    font-size: 0.7701rem;
+    color: #000;
+}
+
+.form_logos ul li span img {
+    margin-right: 10px;
+    max-width: 32px;
+}
+
+.tcpl_text p {
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.5501rem;
+    color: #837c7c;
+}
+
+@media only screen and (max-width: 991px) {
+    .attention_content {
+        max-width: 100%;
+    }
+    .attention_content h2 {
+        font-size: 5.4rem;
+    }
+    .attention_content h2 span {
+        font-size: 3rem;
+    }
+    .company-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .company-logos h3 {
+        width: 100%;
+        text-align: center;
+    }
+    .company-logos img {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .section_main_content .main_form {
+        max-width: 35.5%;
+        height: 72.8rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section_main_content .main_form {
+        max-width: 85%;
+        position: static;
+        height: auto;
+        margin: 0 auto;
+    }
+    .section_main_content .row .col-md-7 {
+        width: 100%;
+    }
+    .company-logos h3 {
+        margin-bottom: 15px;
+    }
+}
